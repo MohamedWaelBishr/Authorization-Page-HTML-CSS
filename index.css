@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap");
+
+html,
+body,
+#page {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  display: flex;
+  /*background-image: linear-gradient(
+    to right bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );*/
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  font-family: "Cairo", sans-serif;
+}
+
+.header-top {
+  position: relative;
+  background-color: #131418;
+  margin: 0;
+  padding: 0;
+  height: 10%;
+  color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.login-form {
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.login-form p {
+  padding: 0;
+  margin-bottom: 0;
+  height: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: small;
+  text-transform: capitalize;
+  color: maroon;
+}
+
+.form-div {
+  padding-top: 10px;
+}
+.mb-3 {
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-items: left;
+  text-align: left;
+}
+.mb-3 label {
+  font-weight: bold;
+}
+.submit-buttons {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.submit-buttons span {
+  display: flex;
+}
+
+.submit-buttons button {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.form-check {
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 17%;
+  justify-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+}
+.form-check input {
+  margin-right: 5px;
+}
+#flexCheckIndeterminate {
+  background-color: #131418;
+}
